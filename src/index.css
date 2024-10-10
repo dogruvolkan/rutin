@@ -1,0 +1,70 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Stil */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Başlıklar */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Paragraflar */
+p {
+  margin-bottom: 10px;
+}
+
+/* Linkler */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Listeler */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* Form Elemanları */
+input, textarea, select, button {
+  font-family: inherit;
+}
+
+/* React Calendar Özelleştirmeleri */
+.react-calendar {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.react-calendar__tile--active {
+  background: #007bff;
+  color: white;
+}
+
+.react-calendar__tile--now {
+  background: #ffc107;
+  color: white;
+}

@@ -1,0 +1,151 @@
+.container {
+  padding: 20px;
+  max-width: 700px;
+  margin: 20px auto;
+ 
+  
+  
+}
+
+.backLink {
+  text-decoration: none;
+  color: #007bff;
+  display: inline-block;
+  margin-bottom: 20px;
+  transition: color 0.3s ease;
+}
+
+.backLink:hover {
+  color: #0056b3;
+}
+
+.title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.description {
+  text-align: center;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.startDate {
+  text-align: center;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+/* İstatistikler */
+.stats {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.statItem {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  font-size: 1.2em;
+}
+
+.iconDone {
+  color: #28a745;
+  margin-right: 5px;
+}
+
+.iconNotDone {
+  color: #dc3545;
+  margin-right: 5px;
+}
+
+.calendar {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+/* İkonlar için stil */
+.react-calendar__tile .iconDone,
+.react-calendar__tile .iconNotDone {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  font-size: 0.8em;
+}
+
+/* Modal Stil */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.options {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.optionButtons {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.optionButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.doneButton {
+  background-color: #28a745;
+}
+
+.doneButton:hover {
+  opacity: 0.8;
+}
+
+.notDoneButton {
+  background-color: #dc3545;
+}
+
+.notDoneButton:hover {
+  opacity: 0.8;
+}
+
+.cancelButton {
+  background-color: #6c757d;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cancelButton:hover {
+  background-color: #5a6268;
+}
+
+.notFound {
+  text-align: center;
+  color: #dc3545;
+  font-size: 1.2em;
+  margin-top: 50px;
+}
